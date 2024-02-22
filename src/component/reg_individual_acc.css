@@ -1,0 +1,119 @@
+
+/* Reg_individual css*/
+.reg-Top-Content{
+ display: flex;
+ justify-content: space-between;
+ margin-right: 2%;
+ margin-left: -5%;
+
+
+}
+.sub-reg-Top-Container{
+  display: flex;
+ text-decoration: none;
+  margin-top: 1.2%; 
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.sub-reg-Top-Container .back-arrow{
+  font-size: 13px;
+  color: rgb(108, 107, 107);
+  font-weight: 500;
+  /* margin-top: 5.5px; */
+  
+}
+.Back{
+  font-weight: 500;
+  color: rgb(108, 107, 107);
+  margin-top: -62%;
+  margin-left: 50%;
+}
+
+.reg-heading{
+  margin-top: 8%;
+  width: 325px;
+ 
+}
+/* .sub-container{
+  margin-left: 8%;
+} */
+
+
+.reg-form{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+.input_box{
+  margin-top: 5%;
+  margin-bottom: -1%;
+  width: 95%;
+  border-radius: 4px;
+  height: 25px;
+  
+  border: none;
+  border: 2px solid rgb(97, 97, 97);
+  
+
+}
+ /* form .reg-form-span{
+  color: rgb(108, 107, 107);
+} */
+.reg-btn{
+  margin-top: 6%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  height: 45px;
+  width: 340px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 17px;
+}
+.reg-btn-google{
+  margin-top: 10%;
+  background: white;
+  box-shadow: 2px 4px 2px rgb(239, 239, 239) ;
+  color: black;
+  border-radius: 4px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 16px;
+
+}
+.reg-btn-google .google-icon{
+  
+  display: flex;
+  position: absolute;
+ 
+  margin-left: 1%;
+  /* background: linear-gradient(to right, #4285F4, #34A853, #FBBC05, #EA4335); */
+  color: #3834a8;
+  /* border-radius: 50%; */
+  
+}
+.reg-btn-google:hover {
+background: white;
+}
+hr{
+  width: 43%;
+  margin-top: 15px;
+  height: 0.2px;
+  color: white;
+}
+.divder{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  font-size: 20px;
+  color: rgb(211, 209, 209);
+}
+@media screen and (min-device-width: 0px) and (max-device-width: 583px)  { 
+  .sub-container{
+    margin-top: 5%;
+  }
+}
